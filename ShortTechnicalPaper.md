@@ -6,4 +6,10 @@ Wikipedia article defines Full-Text-Search as **Techniques for searching a singl
 *Full-text-database* refers to a database where full-text data is stored eg:- storing all the words in a book, storing entire magzine or entire newspaper. Here the search engine has to scan through all the words in all the documents in order to match the user-specified text.
 If search is done in small number of documents then search engines might directly scan through contents of document to match the text. But if the data is huge 
 then full-text-search will perform two tasks **indexing** and **scaling**. In indexing stage each word of document will be indexed along with that their relative
-position in the document will also be noted. Indexer have a feature of ignoring common words(a,an,the,as,is)
+position in the document will also be noted. Indexer have a feature of ignoring **stop words**(a,an,the,as,is,to,for .etc) along with that indexer might **stem** 
+words which represent same thing for different instance, words like 'take','took','taken' will be index into single word concept 'take'.
+
+We will now discuss performance and scalibilty issues of some search engines performing full text search.
+
+## Elastic Search 
+Elastic Search has some following primary features
