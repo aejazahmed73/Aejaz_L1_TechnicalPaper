@@ -61,13 +61,13 @@ Lucene is another full text search engine and has following features.
 It's open source, no need of paying fee or having license to access search engine.
 
 ### Speed
-It's faster than any other full text search engines as it's incremnetal indexing is faster than batch indexing.
+It's faster than any other full text search engines as it's incremenetal indexing is faster than batch indexing.
 
 ### Fuzzy Search
 It will try to locate to exact document even when the user specified string doesn't match the output result(this search technique is called fuzzy search).
 
 ### Recommendation Systems
-It can been used to implement recommendation systems to recommend similar documents similar to user specified document.
+It can been used to implement recommendation systems to recommend documents similar to user specified document.
 
 ### Accurate Search
 It supports power queries including proximity queries, phrase queries and range queries to make accurate searching.
@@ -76,8 +76,8 @@ It supports power queries including proximity queries, phrase queries and range 
 * It has large and active development community with large number of developers.
 * It's fast as it's development language is java.
 * It's search algorithm provides most accurate search results.
-* It's offers better memory optimization.
-* available for different programming languages
+* It offers better memory optimization.
+* available for different programming languages.
 
 **Some disadvantages of lucene**:
 * It's real time search is slow, there is a time delay between indexing to searchable.
@@ -86,7 +86,7 @@ It supports power queries including proximity queries, phrase queries and range 
 
 **Conclusion on lucene**:
 It's fast and provides very accurate search results along with that it provides good memory optimisation but it have some scalibility issues if large quantity 
-of documents are stored also it's real-time search is very slow and additional development work is required. So if user's demand is fast and accurate searching 
+of documents are stored, also it's real-time search is very slow and additional development work is required. So if user's demand is fast and accurate searching 
 and good memory optimisation with not much scalibility and no requirement of real-time search then user should definately go for it. 
 
 ## Solr
@@ -95,17 +95,17 @@ Some primary features of Solr are as follows:
 ### Open Source
 It's open source means no need of paying money or having any license to use it.
 
-### Scalability
-It provides high scalibility.
-
 ### Fault Tolerance
-It's high fault tolerance ability allows to work good even when some portions of system break down. 
+It's high fault tolerance ability allows to work good even when some portions of system break down.
 
 ### Faceted Search
 It uses faceted search technique that allows users to narrow down search results by applying multiple filters.
 
 ### Rich Document Handling
 Unlike elasticsearch that handles only JSON files solr can handle many documents like PDF and word.
+
+### Scalability
+It provides high scalibility. 
 
 **Some of the advantages of solr are mentioned below**:
 * It can be integerated with any system easily.
