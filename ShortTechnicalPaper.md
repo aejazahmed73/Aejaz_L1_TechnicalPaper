@@ -36,7 +36,7 @@ It supports autocompletion and also instant search. So when you type query it wi
 ### MultiLingual
 It's available in various other langauges to be used by diverse users.
 
-#### Some advantages of using Elasticsearch are as follows:
+ **Some advantages of using Elasticsearch are as follows**:
 * It's easy to scale up in Elasticsearch as it's distributed and document oriented.
 * Multi-tenancy; where multiple nodes/users can access same software instance, is easily handled in elastic search.
 * It's 'real time'; means the document as soon as it's added becomes searchable.
@@ -44,12 +44,12 @@ It's available in various other langauges to be used by diverse users.
 * It supports all document type except those that do not support text rendering.
 * It's documentation is available in many languages for people of different regions to use it.
 
-#### Some disdvantages of Elasticsearch:
+ **Some disdvantages of Elasticsearch**:
 * It's not a good data store like hadoop or MongoDB. it works well for small use but when data is in TB's per day it loses data.
 * It's not simple and very difficult to learn as query syntax is not human language friendly, also documentation is very poor.
 * Problem of **split-brain** might occur due to which data might get split and get corrupted.
 
-### Conclusion on Elasticsearch
+**Conclusion on Elasticsearch**:
 It's very fast, scalable, handle multi-tenancy easily but it's not a good data store(when data is very very large in TB's per day) also there is no support for
 transaction or processing on data manipulation along with that it's not very simple to learn like 'out of box'. So if user's major requirement is Scalability
 and fast search, user must definately choose Elasticsearch.
@@ -72,7 +72,7 @@ It can been used to implement recommendation systems to recommend similar docume
 ### Accurate Search
 It supports power queries including proximity queries, phrase queries and range queries to make accurate searching.
 
-**Let's talk about some advantages of using Lucene**.
+**Let's talk about some advantages of using Lucene**:.
 * It has large and active development community with large number of developers.
 * It's fast as it's development language is java.
 * It's search algorithm provides most accurate search results.
@@ -82,6 +82,39 @@ It supports power queries including proximity queries, phrase queries and range 
 **Some disadvantages of lucene**:
 * It's real time search is slow, there is a time delay between indexing to searchable.
 * Other search engines have better scalability scheme.
-* 
+* All it's extensions needs to implement themselves.
 
+**Conclusion on lucene**:
+It's fast and provides very accurate search results along with that it provides good memory optimisation but it have some scalibility issues if large quantity 
+of documents are stored also it's real-time search is very slow and additional development work is required. So if user's demand is fast and accurate searching 
+and good memory optimisation with not much scalibility and no requirement of real-time search then user should definately go for it. 
 
+## Solr
+Some primary features of Solr are as follows:
+
+### Open Source
+It's open source means no need of paying money or having any license to use it.
+
+### Scalability
+It provides high scalibility.
+
+### Fault Tolerance
+It's high fault tolerance ability allows to work good even when some portions of system break down. 
+
+### Faceted Search
+It uses faceted search technique that allows users to narrow down search results by applying multiple filters.
+
+### Rich Document Handling
+Unlike elasticsearch that handles only JSON files solr can handle many documents like PDF and word.
+
+**Some of the advantages of solr are mentioned below**:
+* It can be integerated with any system easily.
+* It has large and mature user development community.
+* It's optimised for high traffic. 
+* It provides rich document handling as it can handle variety of documents.
+
+**Some disadvantages of solr are as follows**:
+* Real time index search is not efficient.
+
+**Conclusion on solr**:
+If user requirement is optimising high traffic along with handling database containing variety of documents then user can definately go for it.
